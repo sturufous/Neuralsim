@@ -7,6 +7,13 @@
   <version>0.0.2-SNAPSHOT</version>
   <name>neuralsim Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <repositories>
+     <repository>
+      <id>stuarts-maven-repo</id>
+      <name>Stuart's Repo</name>
+      <url>https://stuarts-maven-repo.appspot.com</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -96,8 +103,8 @@
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>${maven-compiler-plugin.version}</version>
 			<configuration>
-				<source>${java.version}</source>
-				<target>${java.version}</target>
+				<source>1.7</source>
+				<target>1.7</target>
 				<encoding>${project.build.sourceEncoding}</encoding>
 			</configuration>
 		</plugin>
