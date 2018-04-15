@@ -58,6 +58,7 @@
   	</dependency>
   </dependencies>
   <properties>
+  		<app.id>neuralsim</app.id>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jackson.version>2.7.4</jackson.version>
 		<spring.version>4.3.14.RELEASE</spring.version>
