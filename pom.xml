@@ -68,7 +68,7 @@
 		<maven-war-plugin.version>2.6</maven-war-plugin.version>
   </properties>
   <build>
-    <finalName>neuralsim</finalName>
+    <finalName>neuralsim-201116</finalName>
 	<plugins>
 		<plugin>
 		   <groupId>com.google.appengine</groupId>
