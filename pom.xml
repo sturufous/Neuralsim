@@ -58,7 +58,7 @@
   	</dependency>
   </dependencies>
   <properties>
-  		<app.id>Neuralsim</app.id>
+  		<app.id>neuralsim</app.id>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jackson.version>2.7.4</jackson.version>
 		<spring.version>4.3.14.RELEASE</spring.version>
@@ -68,7 +68,7 @@
 		<maven-war-plugin.version>2.6</maven-war-plugin.version>
   </properties>
   <build>
-    <finalName>Neuralsim</finalName>
+    <finalName>neuralsim</finalName>
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
